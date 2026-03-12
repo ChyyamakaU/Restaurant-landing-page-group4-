@@ -1,13 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant webpage</title>
-    <link rel="stylesheet" href="/src/output.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
 </head>
 
 <body>
-   
+    <section class="bg-[#f3efdf] py-16">
+
+        <!-- Heading -->
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-extrabold text-green-900">
+                Taste Approved by Thousands
+            </h2>
+        </div>
+
+        <!-- Grid -->
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-6 px-6">
+
+            <!-- Image 1 -->
+            <div class="rounded-xl overflow-hidden">
+                <img src="public/food.jpeg" class="w-full h-full object-cover" alt="">
+            </div>
+
+            <!-- Testimonial Card -->
+            <div class="bg-green-800 text-white p-8 rounded-xl flex flex-col justify-center text-center">
+                <p class="text-sm leading-relaxed mb-6">
+                    "Absolutely amazing experience! The flavors were spot on and the service felt so personal.
+                    This is easily my favorite dining spot in town!"
+                </p>
+
+                <div class="text-yellow-400 text-lg mb-2">
+                    ★★★★★
+                </div>
+
+                <p class="text-sm font-semibold">
+                    Numa Fatahi, Actor
+                </p>
+            </div>
+
+            <!-- Image 2 -->
+            <div class="rounded-xl overflow-hidden">
+                <img src="public/Unconfirmed 315374.jpeg" class="w-full h-full object-cover" alt="">
+            </div>
+
+            <!-- Image 3 -->
+            <div class="rounded-xl overflow-hidden">
+                <img src="public/somebody.jpeg" class="w-full h-full object-cover" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="py-20">
+
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center px-6 ">
+
+        <!-- Food Image -->
+        <div class="relative">
+
+            <!-- Frame -->
+            <!-- <div class="absolute -inset-4 border-8 border-green-900 rounded-2xl"></div> -->
+
+            <!-- Image -->
+            <img src="public/plenty.jpeg"
+                class="relative rounded-tr-[50%_50%] w-full h-[380px] object-cover"
+                alt="restaurant dining">
+
+        </div>
+
+
+        <!-- Reserve Card -->
+        <div class="bg-green-900 text-white rounded-tl-[50%_50%] p-14 min-h-[380px] flex flex-col justify-center text-center">
+
+            <h3 class="text-4xl font-bold mb-4">
+                Reserve Your Table
+            </h3>
+
+            <p class="text-sm opacity-90 mb-8 max-w-sm mx-auto">
+                Plan your perfect meal with us—simple, quick, and guaranteed to delight.
+            </p>
+
+            <button
+                class="bg-lime-300 text-green-900 px-7 py-3 rounded-lg font-semibold hover:bg-lime-400 transition mx-auto">
+                Book a table
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
 </body>
+
 </html>
